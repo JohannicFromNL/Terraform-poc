@@ -29,3 +29,7 @@ resource "azurerm_resource_group" "rg010" {
 
 }
 
+Output "id" {
+ value=data.azurerm_resource_group.rg010.id
+}
+
